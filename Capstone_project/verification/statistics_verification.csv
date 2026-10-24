@@ -1,0 +1,10 @@
+sensor,metric,pandas_value,numpy_value,difference,verified
+temperature,Mean,29.122147651006717,29.122147651006717,0.0,True
+temperature,Sample standard deviation,3.257586688348589,3.25758668834859,8.881784197001252e-16,True
+temperature,Median,29.3,29.3,0.0,True
+humidity,Mean,71.30436241610738,71.30436241610738,0.0,True
+humidity,Sample standard deviation,2.676448413665083,2.676448413665083,0.0,True
+humidity,Median,70.8,70.8,0.0,True
+light,Mean,639.3892617449665,639.3892617449665,0.0,True
+light,Sample standard deviation,212.86478106780814,212.86478106780817,2.842170943040401e-14,True
+light,Median,700.0,700.0,0.0,True

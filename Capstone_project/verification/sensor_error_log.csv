@@ -1,0 +1,7 @@
+csv_row,timestamp,column,issue,original_value,action
+19,2026-10-20 07:25:00,humidity,Missing or nonnumeric value,,Interpolate if supported
+83,2026-10-20 12:45:00,light,Missing or nonnumeric value,,Interpolate if supported
+56,2026-10-20 10:25:00,all,Exact duplicate,Repeated record,Remove duplicate
+114,2026-10-20 15:20:00,humidity,Invalid physical value,118.0,Replace with NaN; interpolate
+127,2026-10-20 16:25:00,light,Invalid physical value,-25.0,Replace with NaN; interpolate
+100,2026-10-20 14:10:00,temperature,Possible temperature spike,64.8,Flag; retain original value

@@ -1,0 +1,38 @@
+STEP1:DATA CLEANING
+
+Analyze my IoT sensor CSV containing timestamp, temperature, humidity and light. Identify missing values, duplicate records, physically invalid measurements and suspicious outliers. Generate Python Pandas code that preserves the original dataset, logs every change and exports a cleaned CSV. Do not silently remove unusual readings or invent replacement values.
+
+STEP2:STATISTICAL ANALYSIS
+
+Using my cleaned sensor dataset, calculate count, mean, median, minimum, maximum and standard deviation for temperature, humidity and light. Generate a Pearson correlation matrix and time-series plots. Explain the results in simple language, distinguish observations from interpretations, and do not invent numerical values.
+
+
+STEP3:AI ANOMALY DETECTION
+
+Develop an Isolation Forest model for my IoT sensor dataset using temperature, humidity and light as input features. Standardize the features, use a reproducible random state, report the contamination assumption, export flagged timestamps and anomaly scores, and explain why an anomaly prediction is not automatically a confirmed sensor fault.
+
+
+STEP4:INDEPENDENT VERIFICATION
+
+Independently verify the statistical results and Isolation Forest anomaly flags using NumPy calculations, timestamp checks and clearly documented rule-based tests. Compare agreements and disagreements without calling them model accuracy unless verified ground-truth labels exist. Produce a verification table and identify uncertain findings.
+
+
+STEP5:EXTERNAL REFERENCE RESEARCH
+
+
+Research manufacturer specifications for DHT22 temperature and humidity sensing and BH1750 light sensing. Identify valid measurement ranges and distinguish them from recommended indoor environmental conditions. Provide reliable source links, note sensor accuracy limitations and avoid presenting illustrative comfort ranges as universal fault thresholds.
+
+STEP6:PROFESSIONAL REPORTING
+
+Create a professional AI IoT sensor data analysis report using only my verified results. Include executive summary, dataset description, methodology, statistics, anomaly findings, verification, external comparisons, recommendations, limitations and conclusion. Clearly identify simulated data, uncertainty and missing evidence. Do not invent results.
+
+
+STEP7:REPORT AUTOMATION
+
+
+Generate a Python workflow that reads a cleaned IoT sensor CSV, validates incoming records, calculates weekly statistics, detects anomalies with Isolation Forest, saves charts, logs execution errors and creates a Markdown report. Explain scheduling requirements and ensure the report distinguishes the actual observation period from a complete calendar week.
+
+
+STEP8:RESPONSIBLE AI REVIEW
+
+Review my AI IoT sensor analysis project for potential AI errors, privacy concerns, data-quality problems, misleading claims, model limitations and automation risks. Suggest practical safeguards and explain which findings require human verification before real-world decisions are made.

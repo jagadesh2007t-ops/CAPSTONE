@@ -1,0 +1,7 @@
+check,result
+Statistical calculations,Passed
+AI and rule agreement rate,95.30%
+Known temperature spike,Detected
+AI-only anomalies,7
+Rule-only anomalies,0
+Ground-truth limitation,Only known injected anomaly verified

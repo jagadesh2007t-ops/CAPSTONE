@@ -1,0 +1,4 @@
+issue,evidence,recommendation,priority
+AI-detected unusual readings,8 readings flagged,Investigate flagged timestamps and validate with independent measurements or logs.,High
+Data-quality monitoring,Historical cleaning required,Apply automated validity checks before model inference.,Medium
+AI model reliability,Limited verified anomaly labels,Collect labeled examples and evaluate detection performance.,Medium

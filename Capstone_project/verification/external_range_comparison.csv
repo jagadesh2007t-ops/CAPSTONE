@@ -1,0 +1,4 @@
+sensor,reference_min,reference_max,observed_min,observed_max,observed_mean,below_reference,within_reference,above_reference
+temperature,20,26,25.6,64.8,29.122147651006717,0,4,145
+humidity,30,60,66.2,78.9,71.30436241610738,0,0,149
+light,200,500,161.0,921.0,639.3892617449665,4,36,109
