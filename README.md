@@ -119,9 +119,7 @@ The analysis included independent verification of statistical calculations, inve
 
 The project identified opportunities to improve data validation, sensor monitoring, anomaly investigation and reporting. It also demonstrated that AI-generated findings require verification before they can be used to support operational decisions.
 
-Overall, the project illustrates how AI can improve the efficiency of IoT data analysis while emphasizing transparency, data quality and responsible interpretation.
-
-## Step 8: Automated IoT Sensor Data Analysis and Weekly Reporting
+Overall, the project illustrates how AI can improve the efficiency of IoT data analysis while emphasizing transparency, data quality and responsible interpretation. Automated IoT Sensor Data Analysis and Weekly Reporting
 
 **Objective:** To develop an automated Python workflow for analyzing IoT sensor data, detecting anomalies, generating visualizations and producing periodic reports.
 
